@@ -6,7 +6,7 @@
 
  int list[N], sum;
 
-void main()
+int main()
 {
 
     int i;
@@ -17,4 +17,5 @@ void main()
     gettimeofday(&t1, NULL);
     long elapsed = (t1.tv_sec - t0.tv_sec)*1000000 + t1.tv_usec - t0.tv_usec;
     printf("Time: %ld us\n", elapsed);
+    return 0; 
 }
